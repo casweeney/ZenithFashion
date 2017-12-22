@@ -1,0 +1,675 @@
+body {
+	/*background-color: #fff;*/
+	background:  url(headbg.jpg);
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+p {
+	
+}
+
+header {
+	background-color: #444;
+	background:  url(headbg.jpg);
+	margin-top: -0.8%;
+	padding-top: 1%;
+}
+
+header img {
+	max-width: 5%;
+	height: 5%;
+	width: 5%;
+	margin-left: 45.5%;
+}
+
+header h1 {
+	text-align: center;
+	margin-top: -0.6%;
+	color: #fff;
+	font-family: Verdana;
+	text-shadow: -4px -4px 0 #902;
+	letter-spacing: 4px;
+}
+
+.tagline {
+	background-color: #902;
+	font-style: italic;
+	font-family: Georgia, Times, serif;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 0.8em
+}
+
+nav {
+	margin: 0;
+	border-bottom: 17px solid #902;
+}
+
+nav ul {
+	background-color: #702;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+
+nav ul li {
+	padding: 15px;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	list-style-type: none;
+}
+
+.handle {
+	width: 100%;
+	background: #802;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+	background-color: #902;
+	padding: 16px;
+}
+
+.wrapper {
+	padding-bottom: 2%;
+	width: 71.5%;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 2%;
+	padding-top: 0.01em;
+	box-shadow: 0 0 10px #fff;
+	border-radius: 2px;
+}
+
+.section div img {
+	height: 50%;
+	width: 75%;
+	margin-left: 13%;
+	margin-top: 10%;
+}
+
+.section {
+}
+
+.section div {
+	float: left;
+	width: 28%;
+	margin-left: 1.8%;
+	margin-right: 1%;
+	margin-bottom: 4%;
+	padding: 0 1% 1% 1%;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	/*border-radius: 15px;
+	box-shadow: 0px 3px 3px #999;*/
+}
+
+.some_talks {
+	text-align: justify;
+	font-family: Georgia;
+	line-height: 170%;
+}
+
+.featured {
+	width: 100%;
+	color: #c02;
+	text-align: center;
+}
+
+.product_items {
+	margin-top: 2%;
+	margin-left: 3.8%;
+	width: 28%;
+	float: left;
+	border: 1px solid #ddd;
+}
+
+.product_items img {
+	width: 100%;
+}
+
+.product_price {
+	text-align: center;
+	color: #c02;
+}
+
+.product_items_name {
+	text-align: center;
+	color: #888;
+}
+
+.to_cart p {
+	text-align: center;
+}
+
+.cart {
+	color: #888;
+	border: 0;
+	padding: 4% 6% 4% 6%;
+	cursor: pointer;
+}
+
+.clear_fix {
+	clear: both;
+}
+
+.services {
+	padding: 2%;
+}
+
+.services_head, h2 {
+	text-align: center;
+	color: #902;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px #999;
+}
+
+.services p {
+	text-align: center;
+	font-family: Georgia;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 200%;
+
+}
+
+.services_holder a {
+	text-decoration: none;
+	background-color: #902;
+	display: block;
+	text-align: center;
+	border-radius: 15px;
+	color: #fff;
+	margin-left: 38%;
+	margin-right: 38%;
+	padding: 2%;
+}
+
+.services_holder a:hover {
+	background-color: #c02;
+	color: #fff;
+	border-radius: 15px;
+}
+
+.gallery {
+	float: none;
+	margin-left: 48%;
+}
+
+.services_holder {
+	padding: 1%;
+	border: 1px solid #999;
+}
+
+.help {
+	padding: 2%;
+}
+
+.help img {
+	max-width: 100%;
+	height: 30%;
+	width: 30%;
+	float: left;
+	margin-left: 35%;
+	margin-bottom: 4%;
+	border-radius: 15px;
+	border: 2px double #902;
+}
+
+.help p {
+	text-align: center;
+	background-color: #902;
+	color: #fff;
+	border-radius: 15px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 2%;
+	font-weight: bold;
+}
+
+.help .best {
+	width: 20%;
+	margin-left: 68%;
+	font-weight: normal;
+	border: 2px double #902;
+	background-color: #fff;
+	color: #777;
+	line-height: 200%;
+}
+
+.shipping {
+	width: 28%;
+	margin-left: 2%;
+	margin-top: 8.14%;
+	float: left;
+}
+
+.shipping img {
+	width: 100%;
+}
+
+.recommended {
+	margin-top: 2%;
+	width: 70%;
+	float: left;
+
+}
+
+.recommended_head {
+	width: 100%;
+	color: #c02;
+	text-align: center;
+}
+
+.recommended_items {
+	width : 30%;
+	margin-left: 2.2%;
+	border: 1px solid #bbb;
+	float: left;
+}
+
+.recommended_items img {
+	width: 100%;
+}
+
+.subscribe {
+	width: 96%;
+	margin: auto;
+	margin-top: -1.5%;
+}
+
+.newsletters {
+	text-align: center;
+	color: #902;
+}
+
+.sub_p {
+}
+
+.sub_bar {
+	width: 77%;
+	padding: 2%;
+	border: 1px solid #902;
+	color: #aaa;
+}
+
+.sub_btn {
+	padding: 2%;
+	border: 0;
+	background-color: #902;
+	color: #fff;
+	font-weight: bold;
+}
+
+.sub_p {
+	color: #aaa;
+}
+
+footer {
+	text-align: center;
+	background-color: #702;
+	/*background:  url(headbg.jpg);*/
+	border-top: 20px solid #902;
+	border-bottom: 20px solid #902;
+}
+
+footer p{
+	color: #bbb;
+}
+
+footer p a {
+	text-decoration: none;
+	color: #bbb;
+}
+
+/* CSS FOR ABOUT PAGE BEGINS HERE */
+
+.about_container{
+	margin: auto;
+}
+
+.about {
+	background-color: #fff;
+	/*background: url(aboutbg8.png);*/
+	background-size: cover;
+	padding: 2%;
+	padding-bottom: 3%;
+	margin: auto;
+}
+
+.about p {
+	line-height: 200%;
+	font-family: Georgia;
+	color: #444;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.about_img {
+	width: 100%;
+	margin: 0;
+}
+
+.about_img img {
+	width: 100%;
+}
+
+
+/* CSS FOR CONTACT PAGE BEGINS HERE*/
+
+.contact_info {
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #902;
+	border-bottom: 4px double #902;
+}
+
+.contact_details {
+	margin-left: 10%;
+	font-weight: bold;
+}
+
+.glypho_set {
+	margin-left: 10%;
+}
+
+.glypho {
+	width: 5%;
+}
+
+.contact {
+	padding-bottom: 1%;
+}
+
+.contact_form {
+	border: 4px solid #902;
+	padding: 2%;
+	margin: auto;
+	width: 80%;
+	text-alig: center;
+	background: url(contact1.jpg);
+	background-position: right;
+	background-size: cover;
+}
+
+.talk {
+	color: #fff;
+}
+
+.fine_input {
+	width: 80%;
+	border: 1px solid #888;
+	margin-bottom: 4%;
+	padding: 1%;
+	letter-spacing: 2px;
+	font-family: sans;
+}
+
+.contact_form textarea {
+	width: 80%;
+	border: 1px solid #888;
+	margin-bottom: 4%;
+	padding: 1.4%;
+	font-family: sans;
+}
+
+.contact_form label {
+	font-weight: bold;
+	color: #fff;
+}
+
+
+.button {
+	background-color: #902;
+	color: #fff;
+	border: 0;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*CSS FOR STORE PAGE BEGINS HERE */
+
+.clothes_section {
+	border-bottom: 4px double #888;
+	padding: 2%;
+	padding-bottom: 10%;
+}
+
+.clothe_slide {
+	width: 50%;
+}
+
+.clothe_slide img {
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	bord: 4px double #999;
+}
+
+.clothe_display {
+	width: 20%;
+	float: right;
+}
+
+.clothe_display img {
+	height: 70%;
+	width: 70%;
+}
+
+span {
+	color: red;
+	font-weight: bold;
+}
+
+.order_now {
+	margin-right: 62%;
+	margin-bottom: 8%;
+}
+
+.order_now input {
+	color: #fff;
+	background-color: #902;
+	border: 0;
+	cursor: pointer;
+}
+
+
+/*----------------MEDIA QUERY BEGINS HERE-------------*/
+
+@media screen and (max-width: 478px) {
+	/*---media for index page---*/
+	body {
+		font-size: 0.8em;
+	}
+	
+	.section {
+		width: 100%;
+	}
+	
+	.section div {
+		width: 80%;
+		margin: 9%;
+	}
+	
+	.help {
+		width: 90%;
+	}
+	
+	.help img {
+		margin-left: 10%;
+		width: 40%;
+	}
+	
+	.help .best {
+		width: 40%;
+		margin-left: 52%;
+	}
+	
+	/*---media for store page---*/
+	
+	.clothes_section {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.clothe_display {
+		width: 100%;
+		height: 100%;
+	}
+	
+	/*--- media for contact page ---*/
+	
+	.contact_form {
+		width: 90%;
+		margin-left: 2%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	/*---media for index page---*/
+	body {
+		font-size: 0.8em;
+	}
+	
+	.wrapper {
+		width: 100%;
+	}
+	
+	nav {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	nav ul {
+		max-height: 0;
+	}
+	
+	nav ul li {
+		box-sizing : border-box;
+		text-align: center;
+		padding: 15px;
+		width: 100%;
+	}
+	
+	.showing {
+		max-height: 30em;
+	}
+	
+	.handle {
+		display: block;
+	}
+	
+	nav ul li a {
+		padding: 2px 0;
+		font-size: 14px;
+	}
+	
+	.section {
+		width: 100%;
+	}
+	
+	.section form {
+		margin-top: -2%;
+	}
+	
+	.section form input {
+		font-size: 12px;
+	}
+	
+	.product_items {
+		margin-top: 2%;
+		margin-left: 10%;
+		width: 80%;
+		float: none;
+	}
+	
+	.product_items img {
+		width: 50%;
+		margin-left: 20%;
+	}
+	
+	.shipping {
+		width: 80%;
+		margin-left: 10%;
+		float: none;
+	}
+	
+	.recommended_items {
+		width : 100%;
+		margin-left: 21%;
+		margin-top: 2%;
+		float: none;
+	}
+	
+	.recommended_head {
+		margin-left: 21%;
+	}
+	
+	.subscribe {
+		margin-left: 20%;
+	}
+	
+	.sub_bar {
+		width: 100%;
+	}
+	
+	.sub_btn {
+		margin-top: 2%;
+	}
+	
+	/*--- media for store page---*/
+	
+	.clothe_display img{
+		width: 50%;
+		height: 50%;
+	}
+	
+	.clothes_section {
+		margin-left: 3%;
+		width: 90%;
+		height: 100%;
+		padding-bottom: 10%;
+	}
+	
+	clothe_display{
+		width: 100%;
+	}
+	
+	.order_now input {
+		font-size: 11px;
+	}
+	
+	/*--- media for contact page ---*/
+	
+
+}
